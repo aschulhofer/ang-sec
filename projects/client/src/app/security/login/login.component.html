@@ -1,0 +1,10 @@
+<div>
+  <div><input [(ngModel)]="username" type="text" name="username" placeholder="username" /></div>
+  <div><input [(ngModel)]="password" type="password" name="password" placeholder="password" /></div>
+  <div>
+    <button (click)="onLogin()">Login</button>
+  </div>
+  <div>
+    {{ errorMessage }}
+  </div>
+</div>

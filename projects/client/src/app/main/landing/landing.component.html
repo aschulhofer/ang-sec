@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <a [routerLink]="'/login'">Login</a>
+    <a [routerLink]="'/profile'">Profile</a>
+  </div>
+  <hr>
+  <div>
+    <button (click)="onApiTest()">{{ btnTestApiLabel }}</button>
+    <div>
+      {{ apiTestResponse | json }}
+    </div>
+  </div>
+</div>
